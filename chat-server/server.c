@@ -3,9 +3,6 @@
 #include <arpa/inet.h>
 #include <string.h>
 #include <unistd.h>
-/*The above imports are actually enough in latest C distributions as all other necessary modules
-are linked within arpa/inet.h . But chances are if you are using an older distribution you might
-have to include these additional modules too*/
 #include<sys/socket.h>
 #include<sys/types.h>
 #include<netinet/in.h>
